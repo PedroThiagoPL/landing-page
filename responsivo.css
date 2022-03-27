@@ -101,3 +101,32 @@
         width: 100%;
     }
 }
+
+    @media only screen and (max-width: 500px) {
+        
+        
+        .imagem img{
+            width: 400px;
+            height: 200px;
+            
+        }
+
+        .rodape{
+            width: 290px;
+            padding-bottom: 200px;
+    }
+
+
+        #titulo-rodape {
+            display: flex;
+            text-align: center;
+            padding-right: 80px;
+            padding-left: 50px;
+        }
+
+        #rodape-paragrafo{
+            display: flex;
+            margin-right: 0px;
+            margin-left: 20px;
+        }
+}
