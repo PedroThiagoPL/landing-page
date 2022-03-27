@@ -1,0 +1,103 @@
+@media only screen and (min-width: 2000px) {
+    .imagem img{
+        width: 800px;
+        height: 500px;
+    }
+    
+    .rodape{
+        margin-top: 230px;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    .lista {
+        flex: 80%;
+        margin-right: 90px;
+        padding: 10px 30px;
+    }
+
+    #logo{
+        flex: 20%;
+    }
+
+    #botao{
+        display: block;
+    }
+
+    .imagem img{
+        width: 800px;
+        height: 500px;
+    }
+
+    .rodape{
+        margin-top: 160px;
+    }
+
+    #titulo-rodape{
+        padding-bottom: 80px;
+        
+    }
+
+    #rodape-paragrafo{
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .lista {
+        flex: 90%;
+        margin-right: 90px;
+        padding: 20px 50px;
+    }
+
+    #logo{
+        flex: 10%;
+    }
+    
+    .imagem img{
+        width: 500px;
+        height: 400px;
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        margin: 0px auto;
+    }
+    
+    .lista {
+        display: none;        
+    }
+
+    #logo{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    main{
+        display: block;
+    }
+
+    .texto {
+        text-align: center;
+        padding: 20px 0px;
+        margin-bottom: 0px;
+    }
+
+   
+    .texto p{
+        text-align: center;
+    }
+
+    #botao{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imagem {
+        margin: 0px 0px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@700;900 & display=swap');
+
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+.menu {
+    display: flex;
+    font-family: arial;
+    justify-items: center;
+    align-items: center;
+}
+
+.menu h1 {
+    flex: 47%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: 5px;
+    margin-left: 3%;
+}
+
+.lista {
+    flex: 47%;
+    text-align: right;
+    padding-right: 3%;   
+}
+
+.lista a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+#conta {
+    border: 4px solid #537ddf;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#conta:hover {
+    background-color: #537ddf;
+    font-size: 16px;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    color: white;
+    padding: 100px 0;
+}
+
+.texto {
+    flex: 47%;
+    margin: 0px 0px 0 3%; 
+    padding: 150px 0; 
+}
+
+.texto h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+}
+
+.texto p {
+    font-family: arial;
+    font-size: 14px;
+}
+
+#titulo1 {
+    font-size: 45px;
+    color: #537ddf;
+}
+
+#titulo2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#campo-nome {
+    width: 360px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#campo-email {
+    width: 360px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+button{
+    background-color: #537ddf;
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imagem {
+    flex: 47%;
+    padding-right: 3%;
+    margin: 80px 50px;
+    text-align: center;
+}
+
+.rodape {
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(black, #537ddf);
+    color:  white;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;  
+    padding: 100px;   
+}
+
+#titulo-rodape{
+    margin-right: 150px;
+}
+
+#rodape-paragrafo {
+    padding-top: 90px;
+    margin-right: 150px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.whats img {
+    width: 70px;
+}
