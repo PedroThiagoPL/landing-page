@@ -104,7 +104,6 @@
 
     @media only screen and (max-width: 500px) {
         
-        
         .imagem img{
             width: 400px;
             height: 200px;
@@ -112,10 +111,9 @@
         }
 
         .rodape{
-            width: 290px;
+            width: 210px;
             padding-bottom: 200px;
         }
-
 
         #titulo-rodape {
             display: flex;
